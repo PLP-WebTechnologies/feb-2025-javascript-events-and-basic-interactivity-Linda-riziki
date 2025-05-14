@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #gallery img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s; 
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+  }
+  
+  #tabs button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
